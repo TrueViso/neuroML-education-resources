@@ -1,0 +1,4 @@
+
+# neuroML-education-resources\nA comprehensive set of notebooks designed to acquaint neuroscientists with machine learning concepts.\n\nFor use:\n\n1\. Download or clone this repository\n2\. Navigate into the repository\n3\. Execute Docker:\n\n```
+docker run -it --rm  -v $PWD:/home/neuro/test -p 8888:8888 satra/ibro-workshop-2017\n```\n\n4\. Initialize jupyter:\n\n```
+$ jupyter-notebook --ip=*\n```\n\n5\. Open the returned URL in a local browser.\n\nKey Resources:\n - [Scikit-learn user guide](http://scikit-learn.org/stable/user_guide.html)\n - [Monte Lunacek's tutorial](https://github.com/mlunacek/meetup_data_science_2016)\n - [Tutorial by Jake Vanderplas](https://github.com/jakevdp/sklearn_tutorial)
